@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:family=Noto+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    color: #fff;
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-div {
+    position: relative;
+    width: 58%;
+    height: inherit;
+    background-color: #0C3B2E;
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.textbox {
+    padding: 100px;
+    width: 80%;
+    position: absolute;
+
+}
+
+.date {
+    position: absolute;
+    top: 650px;
+    left: 125px;
+}
+
+.bottom {
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 300; */
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.right__div {
+    width: 42%;
+    background-image: url(./mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.booking_text {
+    position: absolute;
+    top: 750px;
+    left: 120px;
+    height: 50px;
+    width: 500px;
+    background: #FFBA00;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.booking_text .book:hover {
+    color: #fff;
+}
+
+.book {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
